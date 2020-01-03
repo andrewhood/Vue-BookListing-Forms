@@ -5,7 +5,8 @@
     <div>
       <label for="finishedReading">Finished Reading</label>
       <input type="checkbox" v-model="bookData.finishedReading" />
-
+    </div>
+    <div>
       <label for="borrowed">Borrowed</label>
       <input type="radio" v-model="bookData.ownership" value="borrowed" />
 
